@@ -1,4 +1,5 @@
 import random
+import math
 from turtledemo.nim import computerzug
 
 
@@ -16,6 +17,10 @@ def isWin(player, opponent):
         return True
     return False
 
-
+def playBestOf(n):
+    playerWins = 0
+    computerWins = 0
+    winsNecessary = math.ceil(n/2)
+    print(winsNecessary)
 if __name__ == '__main__':
     print(play())
