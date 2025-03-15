@@ -22,6 +22,9 @@ This is a simple Rock-Paper-Scissors game implemented in Python. The game allows
 ## ⚙️ Installation
 1. 🐍 Ensure you have Python installed (Python 3 recommended).
 2. 📥 Clone or download the repository.
+   ```bash
+   git clone https://github.com/KeneanDita/Rock-Paper-Scissors
+   ```
 3. 📂 Navigate to the project directory.
 4. ▶️ Run the script:
    ```bash
@@ -31,19 +34,6 @@ This is a simple Rock-Paper-Scissors game implemented in Python. The game allows
 ## 🏗️ Code Structure
 - `rock_paper_scissors.py` - The main script that runs the game logic.
 
-## 📌 Example Output
-```
-Enter rock, paper, or scissors: rock
-You chose: rock
-Computer chose: scissors
-You win!
-Do you want to play again? (yes/no): no
-```
-
-## 🚀 Future Improvements
-- 📊 Implement a score tracker
-- 👥 Add a multiplayer mode
-- 🎨 Introduce a GUI using Tkinter or PyQt
 
 ## 📜 License
 This project is open-source and available for modification and distribution.
